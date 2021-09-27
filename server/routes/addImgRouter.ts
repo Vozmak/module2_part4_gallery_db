@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { addImgGallery } from '../gallery/addImgGallery.js';
+import { addImgGallery } from '../gallery/addImage/addImgGallery.js';
 import { errorMessage } from '../functions/errorMessageCheck.js';
 import * as express from 'express';
 const router = express.Router();

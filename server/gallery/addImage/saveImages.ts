@@ -1,7 +1,7 @@
 import { Request } from 'express';
 import { UploadedFile } from 'express-fileupload';
 import fs from 'fs';
-import { Images } from '../mongoDB/Models/Images.js';
+import { Images } from '../../database/Models/Images.js';
 import ErrnoException = NodeJS.ErrnoException;
 import { imageToDbCheck } from './dbImagesCheck.js';
 // @ts-ignore

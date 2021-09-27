@@ -1,5 +1,5 @@
 import { Request } from 'express';
-import { Users } from '../mongoDB/Models/Users.js';
+import { Users } from '../database/Models/Users.js';
 
 type LoginResponse = {
   errorMessage: string;

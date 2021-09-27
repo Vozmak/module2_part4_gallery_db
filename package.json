@@ -7,7 +7,7 @@
   "main": "server/server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon build/server/server.js"
+    "serve": "nodemon --experimental-json-modules build/server/server.js"
   },
   "author": "",
   "license": "ISC",

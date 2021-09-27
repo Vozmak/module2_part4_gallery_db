@@ -1,5 +1,5 @@
 import {Request} from "express";
-import { Images } from '../mongoDB/Models/Images.js';
+import { Images } from '../database/Models/Images.js';
 
 type LoginResponse = {
   errorMessage: string;

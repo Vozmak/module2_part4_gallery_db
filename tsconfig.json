@@ -8,7 +8,8 @@
     "outDir": "build",
     "allowJs": true,
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
   },
   "include": [
     "client",
